@@ -36,8 +36,15 @@ async function init() {
         // Build sidebar
         buildSidebar();
 
-        // Load first lesson
-        loadLesson(0);
+        // Get saved lesson index or default to 0
+        const savedIndex = localStorage.getItem('currentLessonIndex');
+        const startIndex = savedIndex !== null ? parseInt(savedIndex) : 0;
+
+        // Ensure the saved index is valid
+        const validIndex = (startIndex >= 0 && startIndex < allLessons.length) ? startIndex : 0;
+
+        // Load the lesson (saved or first)
+        loadLesson(validIndex);
 
         // Handle initial responsive state
         handleResize();
@@ -122,6 +129,9 @@ function loadLesson(index) {
 
     currentLessonIndex = index;
     const lesson = allLessons[index];
+
+    // Save current lesson index to localStorage
+    localStorage.setItem('currentLessonIndex', index);
 
     // Update active lesson in sidebar
     updateActiveLesson(index);

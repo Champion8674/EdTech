@@ -1,0 +1,72 @@
+{
+  "course": "JavaScript",
+  "modules": [
+    {
+      "title": "Programming Fundamentals",
+      "lessons": [
+        {
+          "title": "What is Programming?",
+          "content": "<h2>What is Programming?</h2><p>Programming is the process of creating instructions for computers to follow. These instructions, called code, tell the computer what to do step by step.</p><img src='https://via.placeholder.com/600x300?text=Programming+Concept' alt='Programming Concept' class='lesson-image'><h3>Why Learn Programming?</h3><p>Programming helps you solve problems, automate tasks, and create amazing applications that can change the world.</p><div class='code-example'>console.log('Hello, World!');</div><div class='real-world-example'><h4>Real World Example</h4><p>Think of a recipe - programming is like writing detailed instructions for a computer to follow, just like a chef follows a recipe to make a delicious meal.</p></div>"
+        },
+        {
+          "title": "Coding vs Programming",
+          "content": "<h2>Coding vs Programming</h2><p>While these terms are often used interchangeably, they have slightly different meanings in the tech world.</p><img src='https://via.placeholder.com/600x300?text=Coding+vs+Programming' alt='Coding vs Programming' class='lesson-image'><h3>Coding</h3><p>Coding is the act of writing code in a specific programming language. It's the implementation part of software development.</p><h3>Programming</h3><p>Programming encompasses the entire process: planning, designing, coding, testing, and maintaining software.</p><div class='code-example'>// Coding example\nfunction greet(name) {\n  return `Hello, ${name}!`;\n}\n\n// Using the function\ngreet('World');</div><div class='real-world-example'><h4>Real World Example</h4><p>If building a house, coding is like laying the bricks, while programming is the entire process of designing blueprints, getting permits, and constructing the house.</p></div>"
+        }
+      ]
+    },
+    {
+      "title": "JavaScript Basics",
+      "lessons": [
+        {
+          "title": "Introduction to JavaScript",
+          "content": "<h2>Introduction to JavaScript</h2><p>JavaScript is a versatile programming language that runs in web browsers and can also be used on servers.</p><img src='https://via.placeholder.com/600x300?text=JavaScript+Basics' alt='JavaScript Basics' class='lesson-image'><h3>What Makes JavaScript Special?</h3><p>JavaScript can manipulate HTML content, handle user interactions, and create dynamic web experiences.</p><div class='code-example'>// Basic JavaScript example\nlet message = 'Hello, JavaScript!';\nconsole.log(message);</div><div class='real-world-example'><h4>Real World Example</h4><p>JavaScript powers interactive features like form validation, image sliders, and real-time chat applications on websites.</p></div>"
+        },
+        {
+          "title": "Variables and Data Types",
+          "content": "<h2>Variables and Data Types</h2><p>Variables are containers for storing data values. JavaScript has several data types including strings, numbers, and booleans.</p><img src='https://via.placeholder.com/600x300?text=Variables+and+Data+Types' alt='Variables and Data Types' class='lesson-image'><h3>Declaring Variables</h3><p>Use <code>let</code> or <code>const</code> to declare variables. <code>let</code> allows reassignment, while <code>const</code> creates constants.</p><div class='code-example'>let name = 'John'; // String\nconst age = 25; // Number\nlet isStudent = true; // Boolean</div><div class='real-world-example'><h4>Real World Example</h4><p>Think of variables like labeled boxes in a warehouse. Each box (variable) can hold different types of items (data) and can be accessed by its label (name).</p></div>"
+        }
+      ]
+    },
+    {
+      "title": "Functions",
+      "lessons": [
+        {
+          "title": "Function Basics",
+          "content": "<h2>Function Basics</h2><p>Functions are reusable blocks of code that perform specific tasks. They help organize code and make it more maintainable.</p><img src='https://via.placeholder.com/600x300?text=Function+Basics' alt='Function Basics' class='lesson-image'><h3>Why Use Functions?</h3><p>Functions allow you to write code once and use it multiple times, making your programs more efficient and easier to understand.</p><div class='code-example'>function greetUser(name) {\n  return `Hello, ${name}!`;\n}\n\nconsole.log(greetUser('Alice'));</div><div class='real-world-example'><h4>Real World Example</h4><p>Functions are like recipes in a cookbook. Once you write a recipe (function), you can use it whenever you want to make that dish.</p></div>"
+        },
+        {
+          "title": "Function Parameters",
+          "content": "<h2>Function Parameters</h2><p>Parameters are variables that act as placeholders for the values that will be passed to the function when it's called.</p><img src='https://via.placeholder.com/600x300?text=Function+Parameters' alt='Function Parameters' class='lesson-image'><h3>Parameter Types</h3><p>Functions can have multiple parameters, and parameters can be of any data type.</p><div class='code-example'>function calculateArea(width, height) {\n  return width * height;\n}\n\nlet area = calculateArea(10, 5);\nconsole.log(area); // Output: 50</div><div class='real-world-example'><h4>Real World Example</h4><p>Parameters are like ingredients in a recipe. The recipe (function) specifies what ingredients it needs, and you provide the actual ingredients when you follow the recipe.</p></div>"
+        },
+        {
+          "title": "Return Values",
+          "content": "<h2>Return Values</h2><p>The return statement specifies the value that a function should output. Functions can return any type of data.</p><img src='https://via.placeholder.com/600x300?text=Return+Values' alt='Return Values' class='lesson-image'><h3>Using Return Values</h3><p>Return values allow functions to produce results that can be used elsewhere in your code.</p><div class='code-example'>function addNumbers(a, b) {\n  return a + b;\n}\n\nlet sum = addNumbers(5, 3);\nconsole.log(sum); // Output: 8</div><div class='real-world-example'><h4>Real World Example</h4><p>A return value is like the finished product from a factory. The factory (function) takes raw materials (parameters) and produces a finished good (return value).</p></div>"
+        },
+        {
+          "title": "Function Expressions",
+          "content": "<h2>Function Expressions</h2><p>Function expressions define functions as part of a larger expression, typically assigning them to variables.</p><img src='https://via.placeholder.com/600x300?text=Function+Expressions' alt='Function Expressions' class='lesson-image'><h3>Anonymous Functions</h3><p>Function expressions can be anonymous (without a name) and are often used as callbacks.</p><div class='code-example'>const greet = function(name) {\n  return `Hello, ${name}!`;\n};\n\nconsole.log(greet('Bob'));</div><div class='real-world-example'><h4>Real World Example</h4><p>Function expressions are like instant recipes that you create on the spot and assign to a variable for later use.</p></div>"
+        },
+        {
+          "title": "Arrow Functions",
+          "content": "<h2>Arrow Functions</h2><p>Arrow functions provide a concise syntax for writing function expressions and have some differences in behavior.</p><img src='https://via.placeholder.com/600x300?text=Arrow+Functions' alt='Arrow Functions' class='lesson-image'><h3>Syntax Benefits</h3><p>Arrow functions are shorter to write and don't bind their own 'this' value.</p><div class='code-example'>const greet = (name) => `Hello, ${name}!`;\n\nconst add = (a, b) => a + b;\n\nconsole.log(greet('Charlie'));\nconsole.log(add(2, 3));</div><div class='real-world-example'><h4>Real World Example</h4><p>Arrow functions are like shorthand recipes - they accomplish the same thing as regular functions but with less writing.</p></div>"
+        },
+        {
+          "title": "Default Parameters",
+          "content": "<h2>Default Parameters</h2><p>Default parameters allow you to specify default values for function parameters if no value is provided.</p><img src='https://via.placeholder.com/600x300?text=Default+Parameters' alt='Default Parameters' class='lesson-image'><h3>Setting Defaults</h3><p>Default parameters make functions more flexible and prevent errors from missing arguments.</p><div class='code-example'>function greet(name = 'Guest') {\n  return `Hello, ${name}!`;\n}\n\nconsole.log(greet()); // Output: Hello, Guest!\nconsole.log(greet('Dave')); // Output: Hello, Dave!</div><div class='real-world-example'><h4>Real World Example</h4><p>Default parameters are like having backup ingredients in your kitchen. If you don't have the main ingredient, you can use the backup.</p></div>"
+        },
+        {
+          "title": "Rest Parameters",
+          "content": "<h2>Rest Parameters</h2><p>Rest parameters allow functions to accept an indefinite number of arguments as an array.</p><img src='https://via.placeholder.com/600x300?text=Rest+Parameters' alt='Rest Parameters' class='lesson-image'><h3>Using Rest Parameters</h3><p>Rest parameters are indicated by three dots (...) before the parameter name.</p><div class='code-example'>function sum(...numbers) {\n  return numbers.reduce((total, num) => total + num, 0);\n}\n\nconsole.log(sum(1, 2, 3, 4)); // Output: 10</div><div class='real-world-example'><h4>Real World Example</h4><p>Rest parameters are like a shopping bag that can hold as many items as you put in it, regardless of how many.</p></div>"
+        },
+        {
+          "title": "Higher Order Functions",
+          "content": "<h2>Higher Order Functions</h2><p>Higher order functions are functions that take other functions as arguments or return functions as their result.</p><img src='https://via.placeholder.com/600x300?text=Higher+Order+Functions' alt='Higher Order Functions' class='lesson-image'><h3>Functional Programming</h3><p>Higher order functions enable powerful programming patterns and make code more modular.</p><div class='code-example'>function applyOperation(operation, a, b) {\n  return operation(a, b);\n}\n\nconst add = (a, b) => a + b;\nconst multiply = (a, b) => a * b;\n\nconsole.log(applyOperation(add, 5, 3)); // Output: 8\nconsole.log(applyOperation(multiply, 5, 3)); // Output: 15</div><div class='real-world-example'><h4>Real World Example</h4><p>Higher order functions are like a universal remote control that can work with any TV, regardless of the brand.</p></div>"
+        },
+        {
+          "title": "Callback Functions",
+          "content": "<h2>Callback Functions</h2><p>Callback functions are functions passed as arguments to other functions and executed later, often after an asynchronous operation completes.</p><img src='https://via.placeholder.com/600x300?text=Callback+Functions' alt='Callback Functions' class='lesson-image'><h3>Asynchronous Programming</h3><p>Callbacks are essential for handling operations that take time, like network requests or file operations.</p><div class='code-example'>function fetchData(callback) {\n  setTimeout(() => {\n    const data = { name: 'John', age: 30 };\n    callback(data);\n  }, 1000);\n}\n\nfetchData((result) => {\n  console.log(result);\n});</div><div class='real-world-example'><h4>Real World Example</h4><p>Callbacks are like leaving a message for someone to call you back. You give them your number (callback function) and they call you when they're ready.</p></div>"
+        }
+      ]
+    }
+  ]
+}

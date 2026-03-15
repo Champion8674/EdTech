@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImChampion - EdTech Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <button class="sidebar-toggle" id="sidebar-toggle">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <div class="navbar-logo">
+                    <h1>ImChampion</h1>
+                </div>
+            </div>
+            <nav class="navbar-menu" id="navbar-menu">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Practice</a></li>
+                    <li><a href="#">My Courses</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="navbar-profile">
+                <div class="profile-avatar">
+                    <img src="https://via.placeholder.com/40x40?text=U" alt="User Avatar">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="main-layout">
+        <!-- Left Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="sidebar-content" id="sidebar-content">
+                <!-- Course sections will be populated by JavaScript -->
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <div class="lesson-container" id="lesson-container">
+                <!-- Lesson content will be loaded here -->
+                <div class="lesson-loading">
+                    <p>Loading lesson content...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Sidebar Overlay for Mobile -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- Lesson Navigation -->
+    <footer class="lesson-navigation">
+        <div class="nav-buttons">
+            <button id="prev-btn" class="nav-btn prev-btn" disabled>
+                <span>&larr;</span> Previous
+            </button>
+            <button id="next-btn" class="nav-btn next-btn">
+                Next <span>&rarr;</span>
+            </button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

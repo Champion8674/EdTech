@@ -516,14 +516,21 @@ body {
         font-size: 24px;
     }
 
+    .lesson-navigation {
+        height: auto;
+        min-height: 80px;
+        padding: 15px;
+    }
+
     .nav-buttons {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
     }
 
     .nav-btn {
-        width: 100%;
+        flex: 1;
         justify-content: center;
+        padding: 10px 15px;
     }
 }
 

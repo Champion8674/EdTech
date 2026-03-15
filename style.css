@@ -508,6 +508,10 @@ body {
         gap: 10px;
     }
 
+    .main-content {
+        padding-bottom: 120px; /* Space for fixed footer */
+    }
+
     .lesson-container {
         padding: 20px;
     }
@@ -536,7 +540,7 @@ body {
 
 @media (max-width: 480px) {
     .navbar-logo img {
-        height: 30px;
+        height: 35px;
     }
 
     .lesson-container {

@@ -108,10 +108,10 @@ body {
     transform: rotate(-45deg) translate(7px, -6px);
 }
 
-.navbar-logo h1 {
-    color: white;
-    font-size: 24px;
-    font-weight: 700;
+.navbar-logo img {
+    height: 40px;
+    width: auto;
+    max-width: 150px;
 }
 
 .navbar-menu ul {
@@ -535,8 +535,8 @@ body {
 }
 
 @media (max-width: 480px) {
-    .navbar-logo h1 {
-        font-size: 20px;
+    .navbar-logo img {
+        height: 30px;
     }
 
     .lesson-container {

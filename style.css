@@ -440,11 +440,11 @@ body {
     }
 
     .main-layout {
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 1fr;
     }
 
     .main-layout.sidebar-collapsed {
-        grid-template-columns: 0px 1fr;
+        grid-template-columns: 1fr;
     }
 
     .sidebar {
